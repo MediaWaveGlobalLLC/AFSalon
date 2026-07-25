@@ -15,8 +15,14 @@
           io.unobserve(e.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.1, rootMargin: "0px 0px -8% 0px" });
     reveals.forEach(function (el) { io.observe(el); });
+    // Fallback: si algo no se reveló en 2.5s (elemento muy alto, observer
+    // bloqueado, etc.), se muestra igualmente para que el contenido nunca
+    // quede oculto de forma permanente.
+    setTimeout(function () {
+      reveals.forEach(function (el) { el.classList.add("in"); });
+    }, 2500);
   } else {
     reveals.forEach(function (el) { el.classList.add("in"); });
   }
