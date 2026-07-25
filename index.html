@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salón Alto Estilo — Tu belleza, nuestro estilo</title>
+  <meta name="description" content="Realzamos tu belleza con servicios de alta calidad en un ambiente de lujo, confort y exclusividad. Uñas, masajes, cabello y depilación.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a href="#inicio" class="brand" aria-label="Salón Alto Estilo — Inicio">
+        <svg class="brand-mark" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <path d="M18 50 L32 12 L46 50"/>
+            <path d="M23.5 38 H40.5"/>
+            <path d="M40 50 C40 34 50 26 50 18 C50 13 46 11 43 13 C40 15 40 20 44 22 C48 24 52 21 52 16"/>
+          </g>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-salon">Salón</span>
+          <span class="brand-name">Alto Estilo</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link is-active">Inicio</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#promociones" class="nav-link">Promociones</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <a href="#contacto" class="btn btn-outline btn-book">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>
+        </svg>
+        Reservar cita
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="hero-script">Tu belleza,</p>
+        <h1 class="hero-title">Nuestro<br><em>Estilo</em></h1>
+        <p class="hero-brand">Salón Alto Estilo</p>
+        <p class="hero-lead">Realzamos tu belleza con servicios de alta calidad en un ambiente de lujo, confort y exclusividad.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/16461234567?text=Hola%2C%20quiero%20reservar%20una%20cita%20en%20Sal%C3%B3n%20Alto%20Estilo" target="_blank" rel="noopener" class="btn btn-gold">
+            Reserva tu cita
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5l-.4.6c-.1.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.6.4 0 .1 0 .7-.2 1.3Z"/>
+            </svg>
+          </a>
+          <div class="hero-call">
+            <span>O llámanos</span>
+            <a href="tel:+16461234567" class="hero-phone">(646) 123-4567</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media reveal">
+        <div class="hero-frame">
+          <img src="assets/img/hero.jpg" alt="Clienta de Salón Alto Estilo con cabello largo y brillante" loading="eager">
+          <div class="hero-tint" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M14 8h3V4.5h-3c-2.2 0-4 1.8-4 4V11H7v3.5h3V22h3.5v-7.5h3l.5-3.5h-3.5V8.7c0-.4.3-.7.5-.7Z"/></svg></a>
+      <a href="#contacto" aria-label="Ubicación"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></a>
+    </div>
+  </section>
+
+  <!-- ═══════════ SERVICIOS ═══════════ -->
+  <section class="services" id="servicios">
+    <div class="section-head reveal">
+      <p class="section-kicker">Nuestros</p>
+      <h2 class="section-title">Servicios</h2>
+      <div class="divider"><span></span><i>◆</i><span></span></div>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="assets/img/servicio-unas.jpg" alt="Manicura con diseño en negro y dorado" loading="lazy"></div>
+        <div class="service-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 3h6l1 4H8l1-4Z"/><path d="M8 7h8l1.5 13a1 1 0 0 1-1 1.1h-9a1 1 0 0 1-1-1.1L8 7Z"/><path d="M10 3V2h4v1"/></svg>
+        </div>
+        <h3>Uñas</h3>
+        <p>Manicura, pedicura, uñas acrílicas, gel, nail art y más.</p>
+        <a href="#contacto" class="btn btn-outline btn-sm">Ver más</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="assets/img/servicio-masajes.jpg" alt="Masaje relajante de espalda y hombros" loading="lazy"></div>
+        <div class="service-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20c-5 0-8-3-8-7 3 0 5 1 6 3 0-4 1-8 2-11 1 3 2 7 2 11 1-2 3-3 6-3 0 4-3 7-8 7Z"/></svg>
+        </div>
+        <h3>Masajes</h3>
+        <p>Relajantes, descontracturantes, reductores y más.</p>
+        <a href="#contacto" class="btn btn-outline btn-sm">Ver más</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="assets/img/servicio-cabello.jpg" alt="Cabello rubio con mechas y ondas" loading="lazy"></div>
+        <div class="service-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="6" cy="7" r="2.6"/><circle cx="6" cy="17" r="2.6"/><path d="M8.2 8.6 20 20M8.2 15.4 20 4"/></svg>
+        </div>
+        <h3>Cabello</h3>
+        <p>Cortes, coloración, mechas, tratamientos y peinados.</p>
+        <a href="#contacto" class="btn btn-outline btn-sm">Ver más</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="assets/img/servicio-depilacion.jpg" alt="Piernas suaves tras depilación" loading="lazy"></div>
+        <div class="service-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="9" y="2" width="6" height="13" rx="2"/><path d="M12 15v7M9 6h6"/></svg>
+        </div>
+        <h3>Depilación</h3>
+        <p>Depilación facial y corporal con cera y láser.</p>
+        <a href="#contacto" class="btn btn-outline btn-sm">Ver más</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ═══════════ POR QUÉ ELEGIRNOS ═══════════ -->
+  <section class="why" id="nosotros">
+    <div class="why-inner">
+      <div class="why-copy reveal">
+        <p class="section-kicker">¿Por qué elegirnos?</p>
+        <h2 class="section-title left">Experiencia, lujo<br>y resultados</h2>
+
+        <div class="why-features">
+          <div class="feature">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 4 9l8 12 8-12-8-6Z"/><path d="M4 9h16M12 3l-3 6 3 12 3-12-3-6Z"/></svg>
+            <span>Productos premium</span>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
+            <span>Profesionales expertos</span>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m12 3 2.7 5.6 6.1.8-4.5 4.3 1.1 6-5.4-2.9-5.4 2.9 1.1-6L3.2 9.4l6.1-.8L12 3Z"/></svg>
+            <span>Atención personalizada</span>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 18h16M5 18 4 9l5 4 3-7 3 7 5-4-1 9"/></svg>
+            <span>Ambiente exclusivo y relajante</span>
+          </div>
+        </div>
+
+        <a href="#contacto" class="btn btn-gold">
+          Conócenos
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="why-media reveal">
+        <div class="why-frame">
+          <img src="assets/img/interior.jpg" alt="Interior de Salón Alto Estilo con sillones y espejos iluminados" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PROMOCIÓN DEL MES ═══════════ -->
+  <section class="promo" id="promociones">
+    <div class="promo-inner">
+      <div class="promo-copy reveal">
+        <p class="section-kicker">Promoción del mes</p>
+        <h2 class="section-title left">Paquete de belleza completa</h2>
+        <p class="promo-desc">Manicura + Pedicura + Masaje Relajante + Lavado y Peinado</p>
+        <p class="promo-price"><span class="promo-was">$180</span> <strong>$150</strong> <span class="promo-save">Ahorra $30</span></p>
+        <a href="https://wa.me/16461234567?text=Hola%2C%20quiero%20el%20Paquete%20Belleza%20Completa%20(%24150)" target="_blank" rel="noopener" class="btn btn-gold">
+          Aprovechar ahora
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="promo-thumbs reveal" id="galeria">
+        <figure class="thumb"><img src="assets/img/servicio-unas.jpg" alt="Uñas del paquete" loading="lazy"></figure>
+        <figure class="thumb"><img src="assets/img/servicio-masajes.jpg" alt="Masaje del paquete" loading="lazy"></figure>
+        <figure class="thumb"><img src="assets/img/servicio-cabello.jpg" alt="Peinado del paquete" loading="lazy"></figure>
+        <button class="thumb-next" aria-label="Siguiente imagen">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AGENDA TU CITA ═══════════ -->
+  <section class="cta" id="contacto">
+    <div class="cta-panel reveal">
+      <div class="cta-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="54" height="54" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M14 14h2M8 17.5h2M14 17.5h2"/></svg>
+      </div>
+
+      <div class="cta-center">
+        <h2 class="section-title">Agenda tu cita ahora</h2>
+        <p class="cta-sub">Es fácil, rápido y seguro</p>
+        <a href="https://wa.me/16461234567?text=Hola%2C%20quiero%20agendar%20una%20cita%20en%20Sal%C3%B3n%20Alto%20Estilo" target="_blank" rel="noopener" class="btn btn-gold">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5l-.4.6c-.1.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.6.4 0 .1 0 .7-.2 1.3Z"/></svg>
+          Reservar por WhatsApp
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="cta-contact">
+        <p class="cta-line">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+          (646) 123-4567
+        </p>
+        <p class="cta-line">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <span>Lunes – Domingo<br>9:00 am – 8:00 pm</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand" aria-label="Salón Alto Estilo">
+          <svg class="brand-mark" viewBox="0 0 64 64" width="40" height="40" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+              <path d="M18 50 L32 12 L46 50"/><path d="M23.5 38 H40.5"/>
+              <path d="M40 50 C40 34 50 26 50 18 C50 13 46 11 43 13 C40 15 40 20 44 22 C48 24 52 21 52 16"/>
+            </g>
+          </svg>
+          <span class="brand-text">
+            <span class="brand-salon">Salón</span>
+            <span class="brand-name">Alto Estilo</span>
+          </span>
+        </a>
+        <p class="footer-tagline">Tu belleza, nuestro estilo.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg> Ubicación</h4>
+        <p class="footer-addr">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          123 Beauty Ave,<br>New York, NY 10001
+        </p>
+        <a href="https://maps.google.com/?q=123+Beauty+Ave,+New+York,+NY+10001" target="_blank" rel="noopener" class="btn btn-gold btn-sm">Ver en mapa</a>
+      </div>
+
+      <div class="footer-col">
+        <h4><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg> Contáctanos</h4>
+        <p class="footer-line"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg> (646) 123-4567</p>
+        <p class="footer-line"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg> (646) 987-6543</p>
+        <p class="footer-line"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> info@salonaltoestilo.com</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M14 8h3V4.5h-3c-2.2 0-4 1.8-4 4V11H7v3.5h3V22h3.5v-7.5h3l.5-3.5h-3.5V8.7c0-.4.3-.7.5-.7Z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M16.5 3c.4 2.1 1.8 3.6 4 4v3.1c-1.5 0-2.9-.5-4-1.3v6.4a6.3 6.3 0 1 1-6.3-6.3c.3 0 .7 0 1 .1v3.2a3.2 3.2 0 1 0 2.2 3V3h3.1Z"/></svg></a>
+        </div>
+        <div class="footer-gallery">
+          <img src="assets/img/servicio-unas.jpg" alt="" loading="lazy">
+          <img src="assets/img/servicio-masajes.jpg" alt="" loading="lazy">
+          <img src="assets/img/servicio-cabello.jpg" alt="" loading="lazy">
+          <img src="assets/img/interior.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <p>© 2024 Salón Alto Estilo. Todos los derechos reservados.</p>
+      <p class="footer-links"><a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+    </div>
+  </footer>
+
+  <!-- ═══════════ WHATSAPP FLOTANTE ═══════════ -->
+  <a href="https://wa.me/16461234567?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Sal%C3%B3n%20Alto%20Estilo" target="_blank" rel="noopener" class="wa-float" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5l-.4.6c-.1.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.6.4 0 .1 0 .7-.2 1.3Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
